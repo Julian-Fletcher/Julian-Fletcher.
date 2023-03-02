@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
     <head>
-        <title>Home</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!--Links and styling will go here!-->
+        <!-- BOOTSTRAP THINGS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <!-- My CSS -->
         <link rel="stylesheet" href="style.css">
 
+        <title>Home</title>
+        <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+        
         <style>
             .column {
                 float: left;
@@ -19,23 +25,50 @@
                 display: table;
                 clear: both;
             }
+            /*{
+                border-radius: .5px;
+                border-style: solid;
+                border-color: red;
+            }
+            */
         </style>
     </head>
 
     <body>
-        <header>
-            <nav class="navbar">
-                <ul class="navbar">
-                    <li class="navbar-item"><a href="index.html">HOME</a></li>
-                    <li class="navbar-item"><a href="projects.html">PROJECTS</a></li>
-                    <li class="navbar-item">EXPERIENCE</li>
-                    <li class="navbar-item">CONTACT</li>
+        <header id="home"  style="height:920px;">
+            <nav id="navWrap" style="display:block;">
+                <ul id="nav">
+                    <li><a href="#home">HOME</a></li> <!--Your most pretentious page-->
+                    <li><a href="#about">ABOUT</a></li> <!--The, "Hi, I"m Julian" page-->
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#experience">EXPERIENCE</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                 </ul>
-            </nav>            
+            </nav> 
+
+                <div>
+                    <div>   <!--NAME!!-->
+                        <h1>Julian Fletcher</h1>
+                        <h3></h3>
+                    </div>
+                 <!--Links-->
+                        <ul>
+                            <li><a href="https://github.com/Julian-Fletcher">GitHub</a></li>
+                            <li><a href="https://www.linkedin.com/in/jflec">LinkedIn</a></li>
+                            <li><a href="mailto:juliannoah2004@gmail.com">Email</a></li>
+                        </ul>
+                </div> 
         </header>
 
         <main>
-            <div class="row">
+
+            
+
+            
+            </section>
+
+            <section id="about">
+                <div class="row" >
                 <div class="column">
                     <h1>Hi! My name is Julian.</h1>
                     <p>I'm currently an undergrad pursuing a B.S. in Computer Science from the Univeristy of Missouri. 
@@ -43,20 +76,26 @@
                     </p>
                 </div>
                 <div class="column">
-                    <img class="profile" src="/Images/Moon1.jpg" alt="A picture of me">
+                    <img class="profile" src="/Images/Meb.jpg" alt="A picture of me">
                 </div>
             </div>
-            <div>
-                <h2>What have I done?</h2>
+            </section>
+
+
+            <section id="projects">
                 <div>
-                    <h3>Relevant Course Work</h3>
-                    <ul>
-                        <li>Algoritm and Design I and II</li>
-                        <li>Advanced Algoritm Design</li>
-                        <li>Introduction to Logic Systems</li>
-                        <li>Python for Analytics and Machine Learning</li>
-                    </ul>
+                    <h2>What have I done?</h2>
+                    <div>
+                        <h3>Relevant Course Work</h3>
+                        <ul>
+                            <li>Algoritm and Design I and II</li>
+                            <li>Advanced Algoritm Design</li>
+                            <li>Introduction to Logic Systems</li>
+                            <li>Python for Analytics and Machine Learning</li>
+                        </ul>
+                    </div>
                 </div>
+            </section>   
                 <div>
                     <h3>Languages</h3>
                     <ul>
@@ -71,5 +110,7 @@
         </main>
 
         <script src="index.js"></script>
+        <!-- BOOTSTRAP -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     </body>
 </html>

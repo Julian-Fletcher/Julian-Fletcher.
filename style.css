@@ -3,20 +3,13 @@ body{
     
 }
 
-img.profile{
-    height:200px;
-    width: 200px;
-    border-radius: 50%;
-}
+
 
 li.navbar-item{
     display: inline;
     float: left;
 
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+
     text-decoration: none;
 }
 
@@ -25,13 +18,37 @@ li.navbar-item:hover{
 }
 
 div.navbar{
-
+    margin: auto;
+    width: 50%;
 }
 
-ul.navbar{
+/*#navWrap{
+    width: 100%;
+    letter-spacing: 2px;
+    position: fixed;
+}
+*/
+ul#nav{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #82d8ff;
+    text-align: center;
+    width: auto;
+}
+ul#nav li{
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+#home{
+   background-image: url("/Images/Field.JPG");
+   background-size: 100%;
+}
+/*PROFILE PICTURE*/
+img.profile{
+    height:400px;
+    width: 400px;
+    border-radius: 50%;
 }
