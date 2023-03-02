@@ -6,29 +6,46 @@
 
         <!--Links and styling will go here!-->
         <link rel="stylesheet" href="style.css">
+
+        <style>
+            .column {
+                float: left;
+                width: 50%;
+                }
+
+            /* Clear floats after the columns */
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+        </style>
     </head>
 
     <body>
-        <div class="navbar">
-            <ul class="navbar">
-                <li class="navbar-item"><a href="index.html">Home</a></li>
-                <li class="navbar-item"><a href="projects.html">Projects</a></li>
-                <li class="navbar-item">Experience</li>
-                <li class="navbar-item">Contact</li>
-            </ul>
-        </div>
         <header>
-            
+            <nav class="navbar">
+                <ul class="navbar">
+                    <li class="navbar-item"><a href="index.html">HOME</a></li>
+                    <li class="navbar-item"><a href="projects.html">PROJECTS</a></li>
+                    <li class="navbar-item">EXPERIENCE</li>
+                    <li class="navbar-item">CONTACT</li>
+                </ul>
+            </nav>            
         </header>
-        <main>
-            <div>
-                <h1>Hi! My name is Julian.</h1>
-                <p>I'm currently an undergrad pursuing a B.S. in Computer Science from the Univeristy of Missouri. 
-                    I'm looking to work in Data science or Analytics upon graduation, and am currently looking for internship opportunities. 
-                </p>
-                <img class="profile" src="/Images/Moon1.jpg" alt="A picture of me">
-            </div>
 
+        <main>
+            <div class="row">
+                <div class="column">
+                    <h1>Hi! My name is Julian.</h1>
+                    <p>I'm currently an undergrad pursuing a B.S. in Computer Science from the Univeristy of Missouri. 
+                        I'm looking to work in Data science or Analytics upon graduation, and am currently looking for internship opportunities. 
+                    </p>
+                </div>
+                <div class="column">
+                    <img class="profile" src="/Images/Moon1.jpg" alt="A picture of me">
+                </div>
+            </div>
             <div>
                 <h2>What have I done?</h2>
                 <div>
