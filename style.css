@@ -21,10 +21,15 @@ ul#nav li{  /*styles navbar*/
     color:white;
     /*sets color of navbar*/
 }
+#home li a:hover{
+    color: #3f8efc;
+}
 /* -------------------------HOME PAGE ------------------------- */
 #home{
-   background-image: url("/Images/Sunrise.JPG");
-   background-size: 100%;
+   background: url("/Images/Sunrise.JPG") no-repeat top center;
+   background-size:initial;
+   -webkit-background-size: cover;
+
 }
 #social{
     margin: 24px;
