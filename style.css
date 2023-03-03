@@ -55,15 +55,24 @@ ul#nav li{  /*styles navbar*/
 
 /* -------------------------ABOUT SECTION------------------------- */
 /*PROFILE PICTURE*/
+#about{
+    color:aliceblue;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
 #profile{
-    height:400px;
-    width: 400px;
+    height:200px;
+    width: 200px;
     border-radius: 50%;
     border-width: 2px;
     border-color: #f18f01;
     border-style: solid;
 }
+#intro{
+    
+}
 
+/* -------------------------GENERAL STYLES EY------------------------- */
 body{
     font-family: 'Ramabhadra', sans-serif;
     background-color: #001021;
