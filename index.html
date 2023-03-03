@@ -11,20 +11,17 @@
         <link rel="stylesheet" href="style.css">
 
         <script src="https://kit.fontawesome.com/dd0c30e153.js" crossorigin="anonymous"></script>
+        
+        
         <title>Home</title>
         <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap" rel="stylesheet">
         
         <style>
-            .column {
-                float: left;
-                width: 50%;
-                }
-
-            /* Clear floats after the columns */
-            .row:after {
-                content: "";
-                display: table;
-                clear: both;
+            #name{
+                font-size: 90px;
             }
             /*{
                 border-radius: .5px;
@@ -37,24 +34,24 @@
 
     <body>
         <header id="home"class="container-fluid" style="height: 100vh; width: 100%;">
-            <nav id="navWrap" style="display:block;">
+            <nav style="display:block;">
                 <ul id="nav">
-                    <li><a href="#home">HOME</a></li> <!--Your most pretentious page-->
-                    <li><a href="#about">ABOUT</a></li> <!--The, "Hi, I"m Julian" page-->
+                    <li><a href="#home">HOME</a></li> 
+                    <li><a href="#about">ABOUT</a></li> 
                     <li><a href="#projects">PROJECTS</a></li>
                     <li><a href="#experience">EXPERIENCE</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </nav> 
-
+            <hr>
             <div class="banner">
                 <div class="banner-text">
-                    <h1 style="color:white; font-size: 90px;">Julian Fletcher</h1>
+                    <h1 id="name">Julian Fletcher</h1>
                 
                     <ul id="social">
-                        <li><a href="https://github.com/Julian-Fletcher"><i class="fa-brands fa-github"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/jflec"><i class="fa-brands fa-linkedin"></i></a></li>
-                        <li><a href="mailto:juliannoah2004@gmail.com"><i class="fa-sharp fa-solid fa-envelope"></i></a></li>
+                        <li><a href="https://github.com/Julian-Fletcher" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/jflec" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="mailto:juliannoah2004@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa-sharp fa-solid fa-envelope"></i></a></li>
                     </ul>
                 
                 </div>
@@ -66,7 +63,7 @@
         </header>
 
         <main>
-            <section id="about" style="height:100%">
+            <section id="about" style="height:100vh">
                 <div class="contianer">    
                     <div class="row" >
                         <div class="col">
@@ -83,7 +80,7 @@
             </section>
 
 
-            <section id="projects">
+            <section id="projects" style="height: 100vh;"">
                 <div>
                     <h2>What have I done?</h2>
                     <div>
