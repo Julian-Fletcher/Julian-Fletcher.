@@ -10,6 +10,7 @@
         <!-- My CSS -->
         <link rel="stylesheet" href="style.css">
 
+        <script src="https://kit.fontawesome.com/dd0c30e153.js" crossorigin="anonymous"></script>
         <title>Home</title>
         <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
         
@@ -35,7 +36,7 @@
     </head>
 
     <body>
-        <header id="home"  style="height:920px;">
+        <header id="home"class="container-fluid" style="height: 920px; width: 100%;">
             <nav id="navWrap" style="display:block;">
                 <ul id="nav">
                     <li><a href="#home">HOME</a></li> <!--Your most pretentious page-->
@@ -46,39 +47,39 @@
                 </ul>
             </nav> 
 
-                <div>
-                    <div>   <!--NAME!!-->
-                        <h1>Julian Fletcher</h1>
-                        <h3></h3>
-                    </div>
-                 <!--Links-->
-                        <ul>
-                            <li><a href="https://github.com/Julian-Fletcher">GitHub</a></li>
-                            <li><a href="https://www.linkedin.com/in/jflec">LinkedIn</a></li>
-                            <li><a href="mailto:juliannoah2004@gmail.com">Email</a></li>
-                        </ul>
-                </div> 
+            <div class="banner">
+                <div class="banner-text">
+                    <h1 style="color:white; font-size: 90px;">Julian Fletcher</h1>
+                
+                    <ul id="social">
+                        <li><a href="https://github.com/Julian-Fletcher"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/jflec"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="mailto:juliannoah2004@gmail.com"><i class="fa-sharp fa-solid fa-envelope"></i></a></li>
+                    </ul>
+                
+                </div>
+                <!--Links-->
+                <div class="" style="display:block">
+                    
+                </div>
+            </div> 
         </header>
 
         <main>
-
-            
-
-            
-            </section>
-
-            <section id="about">
-                <div class="row" >
-                <div class="column">
-                    <h1>Hi! My name is Julian.</h1>
-                    <p>I'm currently an undergrad pursuing a B.S. in Computer Science from the Univeristy of Missouri. 
-                        I'm looking to work in Data science or Analytics upon graduation, and am currently looking for internship opportunities. 
-                    </p>
+            <section id="about" style="height:100%">
+                <div class="contianer">    
+                    <div class="row" >
+                        <div class="col">
+                            <h1>Hi! My name is Julian.</h1>
+                            <p>I'm an undergrad pursuing a degree in Computer Science from the Univeristy of Missouri. 
+                                My primary interests are in software development, data science/analytics/visualization, and machine learning.
+                            </p>
+                        </div>
+                        <div class="col center">
+                            <img id="profile" src="/Images/Meb.jpg" alt="A picture of me">
+                        </div>
+                    </div>
                 </div>
-                <div class="column">
-                    <img class="profile" src="/Images/Meb.jpg" alt="A picture of me">
-                </div>
-            </div>
             </section>
 
 

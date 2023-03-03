@@ -1,33 +1,5 @@
-body{
-    font-family: 'Trebuchet MS';
-    
-}
+/* NAVBAR */
 
-
-
-li.navbar-item{
-    display: inline;
-    float: left;
-
-
-    text-decoration: none;
-}
-
-li.navbar-item:hover{
-    background-color: #006696;
-}
-
-div.navbar{
-    margin: auto;
-    width: 50%;
-}
-
-/*#navWrap{
-    width: 100%;
-    letter-spacing: 2px;
-    position: fixed;
-}
-*/
 ul#nav{
     list-style-type: none;
     margin: 0;
@@ -42,13 +14,49 @@ ul#nav li{
     padding: 14px 16px;
 }
 
+/*HOME PAGE*/
 #home{
-   background-image: url("/Images/Field.JPG");
+   background-image: url("/Images/Sunrise.JPG");
    background-size: 100%;
 }
+#social{
+    margin: 24px;
+    padding: 0;
+    font-size: 30px;
+    list-style: none;
+    text-align: center;
+    width: auto;
+    overflow: hidden;
+}
+#social li{
+    display: inline-block;
+}
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner{
+    margin: 18%;
+    text-align: center;
+}
+
+/* -------------------------ABOUT SECTION------------------------- */
 /*PROFILE PICTURE*/
-img.profile{
+#profile{
     height:400px;
     width: 400px;
     border-radius: 50%;
+    border-width: 2px;
+    border-color: #f18f01;
+    border-style: solid;
+}
+
+#about{
+    background-color: #001021;
+}
+
+body{
+    font-family: 'Trebuchet MS';
 }
