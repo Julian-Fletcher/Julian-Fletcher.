@@ -26,7 +26,7 @@ ul#nav li{  /*styles navbar*/
 }
 /* -------------------------HOME PAGE ------------------------- */
 #home{
-   background: url("/Images/Sunrise.JPG") no-repeat top center;
+   background: url("/Images/Field.JPG") no-repeat top center;
    background-size:initial;
    -webkit-background-size: cover;
 
@@ -61,24 +61,55 @@ ul#nav li{  /*styles navbar*/
 /* -------------------------ABOUT SECTION------------------------- */
 /*PROFILE PICTURE*/
 #about{
-    color:aliceblue;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    color:black;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+#bio{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
 }
 #profile{
-    height:200px;
-    width: 200px;
+    height:350px;
+    width: 350px;
     border-radius: 50%;
-    border-width: 2px;
+    border-width: 8px;
     border-color: #f18f01;
     border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
 }
-#intro{
-    
+/* -------------------------LANGUAGES------------------------- */
+#languages{
+    background-color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.languages{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.l-img{
+    max-width:250px;
+    max-height: 150px;
+    margin: 10px 0px 10px 0px;
 }
 
 /* -------------------------GENERAL STYLES EY------------------------- */
 body{
     font-family: 'Ramabhadra', sans-serif;
-    background-color: #001021;
+    background-color: #edeeef;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
