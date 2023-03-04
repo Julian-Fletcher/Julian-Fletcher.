@@ -1,7 +1,18 @@
-/* -------------------------NAVBAR------------------------- */
-#home{
-    color:white;
+/* -------------------------GENERAL STYLES EY------------------------- */
+body{
+    background-color: #edeeef;
+    font-size: 1rem;
+    line-height: 1.5;
 }
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* -------------------------NAVBAR------------------------- */
 ul#nav{
     list-style-type: none;
     margin: 0;
@@ -11,11 +22,11 @@ ul#nav{
     width: auto;
 }
 ul#nav li{  /*styles navbar*/
+    font-family: 'Ramabhadra', sans-serif;
     display: inline-block;
     text-align: center;
     padding: 14px 16px 0px 16px;
     /*text-shadow: 1px 1px 3px black;*/
-    font-family: 'Trebuchet MS' sans-serif;
 }
 #home ul li a{
     color:white;
@@ -29,7 +40,7 @@ ul#nav li{  /*styles navbar*/
    background: url("/Images/Field.JPG") no-repeat top center;
    background-size:initial;
    -webkit-background-size: cover;
-
+    color:white;
 }
 #social{
     margin: 24px;
@@ -43,6 +54,9 @@ ul#nav li{  /*styles navbar*/
 #social li{
     display: inline-block;
     padding: 14px 16px;
+}
+#name{
+    font-family: 'Ramabhadra', sans-serif;
 }
 .center{
     display:flex;
@@ -64,6 +78,7 @@ ul#nav li{  /*styles navbar*/
     color:black;
     padding-top: 4rem;
     padding-bottom: 6rem;
+    font-family: 'Ramabhadra' sans-serif;
 }
 #bio{
     margin-bottom: 1rem;
@@ -76,7 +91,7 @@ ul#nav li{  /*styles navbar*/
     width: 350px;
     border-radius: 50%;
     border-width: 8px;
-    border-color: #f18f01;
+    border-color: #474a48;
     border-style: solid;
     margin-left: auto;
     margin-right: auto;
@@ -99,17 +114,3 @@ ul#nav li{  /*styles navbar*/
     margin: 10px 0px 10px 0px;
 }
 
-/* -------------------------GENERAL STYLES EY------------------------- */
-body{
-    font-family: 'Ramabhadra', sans-serif;
-    background-color: #edeeef;
-    font-size: 1rem;
-    line-height: 1.5;
-}
-.container{
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
