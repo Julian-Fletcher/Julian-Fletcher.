@@ -1,184 +1,206 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- BOOTSTRAP THINGS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-        <!-- My CSS -->
-        <link rel="stylesheet" href="style.css">
+    <!-- BOOTSTRAP THINGS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
 
-        <script src="https://kit.fontawesome.com/dd0c30e153.js" crossorigin="anonymous"></script>
-        
-        
-        <title>Julian Fletcher | Portfolio</title>
-        <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Ramabhadra&display=swap" rel="stylesheet">
-        
-        <style>
-            #name{
-                font-size: 90px;
-            }
-            /*{
-                border-radius: .5px;
-                border-style: solid;
-                border-color: red;
-            }
-            */
-        </style>
-    </head>
+    <script src="https://kit.fontawesome.com/dd0c30e153.js" crossorigin="anonymous"></script>
 
-    <body>
-        <header id="home"class="container-fluid" style="height: 100vh; width: 100%;">
-            <nav style="display:block;">
-                <ul id="nav">
-                    <li><a href="#home">HOME</a></li> 
-                    <li><a href="#about">ABOUT</a></li> 
-                    <li><a href="#projects">PROJECTS</a></li>
-                    <li><a href="#experience">EXPERIENCE</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                </ul>
-            </nav> 
-            <hr>
-            <div class="banner">
-                <div class="banner-text">
-                    <h1 id="name">Julian Fletcher</h1>
-                    <ul id="social">
-                        <li><a href="https://github.com/Julian-Fletcher" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/jflec" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a></li>
-                        <li><a href="mailto:juliannoah2004@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa-sharp fa-solid fa-envelope"></i></a></li>
-                    </ul>
+
+    <title>Julian Fletcher | Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Ramabhadra&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <style>
+        #name{
+            font-size: 90px;
+        }
+        /*{
+            border-radius: .5px;
+            border-style: solid;
+            border-color: red;
+        }*/
+
+    </style>
+</head>
+
+<body>
+<header id="home"class="container-fluid" style="height: 100vh; width: 100%;">
+    <nav style="display:block;">
+        <ul id="nav">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <div class="banner">
+        <div class="banner-text">
+            <h1 id="name">Julian Fletcher</h1>
+            <ul id="social">
+                <li><a href="https://github.com/Julian-Fletcher" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/jflec" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="mailto:juliannoah2004@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa-sharp fa-solid fa-envelope"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-4">
+                    <img id="profile" src="/Images/Meb.jpg" alt="A picture of me">
                 </div>
-            </div> 
-        </header>
+                <div class="col-sm-12 col-lg-8" id="bio">
+                    <h3>Julian Fletcher</h3>
+                    <b>Mizzou '26 Computer Science Student</b>
+                    <p>I'm an undergrad pursuing a degree in Computer Science from the University of Missouri.
+                        <br>
+                        I'm interested in geographic information systems, data visualization, machine learning, and high performance computing.
+                    </p>
+                    <p>
+                        Currently, I'm in my 2nd year of school, but I'm looking for summer internships or co-ops.
+                        If you think I'm a good fit, you can reach me at
+                        <a href="mailto:julian.n.fletcher@outlook.com">julian.n.fletcher@outlook.com</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <main>
-            <section id="about">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 col-lg-4">
-                            <img id="profile" src="/Images/Meb.jpg" alt="A picture of me">
+    <section id="skills">
+        <div class="container">
+            <div class="container section-heading text-center">
+                <div>
+                    <h2>Skills</h2>
+                </div>
+            </div>
+            <div class="container text-center mb-5">
+                <p class="lead">Below are some of my skills, I'm always looking to learn more.</p>
+            </div>
+
+            <div class="row">
+                <div class=" col-md-12 flip-container" style="text-align: center;">
+
+                    <div class="flip-box">
+                        <div class="fb-front" id="c">
+                            <a class="languages">
+                                <img class="l-img" src="Images/logos/c.png" alt="C Programming Language">
+                            </a>
                         </div>
-                        <div class="col-sm-12 col-lg-8" id="bio">
-                            <h3>Julian Fletcher</h3>
-                            <b>Mizzou '26 Computer Science Student</b>
-                            <p>I'm an undergrad pursuing a degree in Computer Science from the Univeristy of Missouri. 
-                                <br>
-                                My interests include software development, data science & visualization, and machine learning.
-                            </p>
-                            <p>
-                                Currently I'm in my 2nd year of school, but I'm looking for summer internships or co-ops. 
-                                If you think I'm a good fit, please contact me via
-                                <a href="mailto:juliannoah2004@gmail.com">juliannoah2004@gmail.com</a>.
-                            </p>
+                        <div class="fb-back" id="c-b">
+                            <p>I've been programing in C for two years, and I am exploring multithreading in the language.</p>
+                        </div>
+                    </div>
+
+                    <div class="flip-box" id="python">
+                        <div class="fb-front">
+                            <a class="languages">
+                                <img class="l-img" src="Images/logos/python.png" alt="Python">
+                            </a>
+                        </div>
+                        <div class="fb-back">
+                            <p>Python text.</p>
+                        </div>
+                    </div>
+
+                    <div class="flip-box" id="HTML">
+                        <div class="fb-front">
+                            <a class="languages">
+                                <img class="l-img" src="Images/logos/html.png" alt="HTML">
+                            </a>
+                        </div>
+                        <div class="fb-back">
+                            <p>HTML text</p>
+                        </div>
+                    </div>
+
+                    <div class="flip-box" id="CSS">
+                        <div class="fb-front">
+                            <a class="languages">
+                                <img class="l-img" src="Images/logos/css.png" alt="CSS">
+                            </a>
+                        </div>
+                        <div class="fb-back">
+                            <p>CSS</p>
+                        </div>
+
+                    </div>
+
+                    <div class="flip-box" id="JS">
+                        <div class="fb-front">
+                            <a class="languages">
+                                <img class="l-img" src="Images/logos/js.svg" alt="Javascript">
+                            </a>
+                        </div>
+                        <div class="fb-back">
+                            <p>JS</p>
+                        </div>
+
+                    </div>
+
+                    <div class="flip-box" id="nJS">
+                        <div class="fb-front">
+                            <a class="languages">
+                                <img class="l-img" src="Images/logos/nodejs.svg" alt="NodeJS">
+                            </a>
+                        </div>
+                        <div class="fb-back">
+                            <p>NodeJS</p>
                         </div>
                     </div>
                 </div>
-            </section>
-           
-            <section id="skills">
-                <div class="container section-heading text-center">
-                    <div>
-                        <h2>Skills</h2>
-                    </div>
-                    <div class="container text-center mb-5">
-                        <p class="lead">Below are some of my skills, I'm always looking to learn more.</p>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12" style="text-align: center;">
-                            <a class="languages">
-                                <img class="l-img" src="Images/c.png" alt="C Programming Language">
-                            </a>
-                            <a class="languages">
-                                <img class="l-img" src="Images/python.png" alt="C Programming Language">
-                            </a>
-                            <a class="languages">
-                                <img class="l-img" src="Images/html.png" alt="C Programming Language">
-                            </a>
-                            <a class="languages">
-                                <img class="l-img" src="Images/css.png" alt="C Programming Language">
-                            </a>
-                        </div>
-                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section" id="projects">
+        <div class="container">
+            <div class="container section-heading text-center">
+                <div>
+                    <h2>Projects</h2>
                 </div>
-
-            </section>
-
-            <section class="content-section" id="projects">
-                <div class="container">
-                    <div class="contianer section-heading text-center">
-                        <div>
-                            <h2>Projects</h2>
-                        </div>
-                    </div>
-                    <div class="container text-center mb-5">
-                        <p class="lead">Here you can see some of the projects I've worked on in my personal time.</p>
-                    </div>
-                    <div class="row no-gutters">
-                        <div class="col-lg-4">
-                            <a class="portfolio-item" data-toggle="modal" href="#portfolioModal1">
+            </div>
+            <div class="container text-center mb-5">
+                <p class="lead">Here you can see some of the projects I've worked on in my personal time.</p>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-4">
+                    <a class="portfolio-item" data-toggle="modal" href="#portfolioModal1">
                                 <span class="caption">
                                     <span class="caption-content">
                                         <h4>Personal Website</h4>
                                         <p class="mb-0">My personal website and portfolio.</p>
                                     </span>
                                 </span>
-                                <img class="img-fluid portfolio-image" src="Images/website.PNG" alt="Image for my website">
-                            </a>
-                        </div>
-                    </div>
-                </div>    
-            </section>
-        </main>
-        <footer class="footer">
-
-        </footer>
-        <!--
-        <div class="portfolio-modal modal fade show" id="portfolioModal1" tabindex="-1" role="dialog" style="padding-right: 17px; display: block;">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-10 mx-auto">
-                                <div class="modal-body">
-                                    <h2>Personal Website</h2>
-                                    <p class="lead">
-                                        A simple website for me to display my work, resume, and Skills
-                                    </p>
-                                    <div class="lead mb-4">
-                                        <b>View this project on GitHub:</b>
-                                        <a href="https://github.com/Julian-Fletcher/Julian-Fletcher.github.io" target="blank" rel="noopener noreferrer">
-                                            https://github.com/Julian-Fletcher/Julian-Fletcher.github.io</a>
-                                    </div>
-                                    <a class="btn btn-dark btn-1" data-dismiss="modal" href="#">
-                                        <i class="fa fa-times">
-                                            ::before
-                                        </i>
-                                        Close Project
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                        <img class="img-fluid portfolio-image" src="Images/website.PNG" alt="Image for my website">
+                    </a>
                 </div>
             </div>
         </div>
-    -->
+    </section>
+</main>
+<footer class="footer">
+
+</footer>
 
 
 
-
-        <script src="index.js"></script>
-        <!-- BOOTSTRAP -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    </body>
+<script src="index.js"></script>
+<!-- BOOTSTRAP -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
 </html>
