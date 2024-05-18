@@ -49,7 +49,7 @@ ul#nav li{  /*styles navbar*/
 }
 /* -------------------------HOME PAGE ------------------------- */
 #home{
-    background: url("/Images/Field.JPG") no-repeat top center;
+    background: url("/images/Field.JPG") no-repeat top center;
     background-size:initial;
     -webkit-background-size: cover;
     color:white;
