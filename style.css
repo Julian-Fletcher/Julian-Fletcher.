@@ -10,6 +10,7 @@ body{
     font-weight: 400;
     font-style: normal;
     font-variation-settings: "wdth" 100;
+    margin: 0;
 }
 
 .section-heading{
@@ -30,6 +31,11 @@ body{
     padding-bottom:7.5rem;
 }
 
+section{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
 /* -------------------------NAVBAR------------------------- */
 ul#nav{
     list-style-type: none;
@@ -44,7 +50,7 @@ ul#nav li{  /*styles navbar*/
     display: inline-block;
     text-align: center;
     padding: 14px 16px 0px 16px;
-    /*text-shadow: 1px 1px 3px black;*/
+    text-shadow: 1px 1px 3px black;
 }
 #home ul li a{
     color:white;
@@ -76,6 +82,7 @@ ul#nav li{  /*styles navbar*/
 #name{
     font-family: 'Ramabhadra', sans-serif;
     font-size: 90px;
+    
 }
 .center{
     display:flex;
@@ -86,16 +93,14 @@ ul#nav li{  /*styles navbar*/
 .banner{
     margin: 18%;
     text-align: center;
-}
-.banner div{
-    text-shadow: 1px 1px 3px black
+    text-shadow: 2px 2px 3px black;
 }
 
 /* -------------------------ABOUT SECTION------------------------- */
 #about{
     color:black;
-    padding-top: 4rem;
-    padding-bottom: 6rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     font-family: 'Ramabhadra' sans-serif;
 }
 
@@ -111,7 +116,7 @@ ul#nav li{  /*styles navbar*/
 .intro-container{
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    /* padding: 2rem; */
     gap: 2rem;
 }
 
@@ -119,7 +124,7 @@ ul#nav li{  /*styles navbar*/
     display: flex;
     align-items: center;
     background-color: #edeeef;
-    padding: 2rem;
+    /* padding: 2rem; */
 }
 
 .intro-desc{
@@ -151,25 +156,33 @@ ul#nav li{  /*styles navbar*/
     }
 }
 
-/* -------------------------LANGUAGES------------------------- */
+
+/* ========================== SKILLS= ======================= */
 #skills{
     background-color: white;
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
 
-.l-img{
-    max-width:250px;
-    max-height: 150px;
-    margin: 10px 0px 10px 0px;
+.skill-container{
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;;
+    padding-top: auto;
+    padding-bottom: auto;
 }
 
-.skill-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    margin: 60px 0px 60px 00px;
+.skill-row{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.skill-box {
+    display: inline;
+    background: #e6e7e8;
+    padding: .4rem;
+    
 }
 
 /* -------------------------PROJECTS------------------------- */
@@ -182,6 +195,8 @@ ul#nav li{  /*styles navbar*/
     display: flex;
     flex-direction: row;
     max-width: 100%;
+    justify-content: space-between;
+    padding: 2rem;
 }
 
 .pbox{
@@ -230,4 +245,23 @@ ul#nav li{  /*styles navbar*/
     .pbox{
         max-width: 100%;
     }
+}
+
+@media only screen and (max-width: 425px) {
+    #name{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 525px) {
+    #name{
+        font-size: 60px;
+    }
+}
+
+
+/* ================== RESUME ================ */
+#resume{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
 }
