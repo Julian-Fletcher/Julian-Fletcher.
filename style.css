@@ -13,8 +13,13 @@ body{
     margin: 0;
 }
 
+section{
+    padding-top: 3rem;
+}
+
 .section-heading{
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 .lead{
@@ -24,12 +29,13 @@ body{
 .section-heading h2{
     font-size: 3rem;
     margin-bottom: .5rem;
+    margin-top: 0;
 }
 
-.content-section{
+/* .content-section{
     padding-top: 7.5rem;
     padding-bottom:7.5rem;
-}
+} */
 
 section{
     padding-left: 2rem;
@@ -99,7 +105,7 @@ ul#nav li{  /*styles navbar*/
 /* -------------------------ABOUT SECTION------------------------- */
 #about{
     color:black;
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
     padding-bottom: 5rem;
     font-family: 'Ramabhadra' sans-serif;
 }
@@ -160,7 +166,7 @@ ul#nav li{  /*styles navbar*/
 /* ========================== SKILLS= ======================= */
 #skills{
     background-color: white;
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
     padding-bottom: 5rem;
 }
 
@@ -187,7 +193,7 @@ ul#nav li{  /*styles navbar*/
 
 /* -------------------------PROJECTS------------------------- */
 #projects{
-    padding-top:5rem;
+    /* padding-top:5rem; */
     padding-bottom: 5rem;
 }
 
@@ -218,25 +224,32 @@ ul#nav li{  /*styles navbar*/
 }
 
 #cpp{
-    background-image: url(Images/Bg1.JPG);
+    background: url(Images/Bg1.JPG);
 }
 
 #bit{
-    background-image: url(Images/Bg1.JPG);
+    background: url(Images/Bg1.JPG);
 }
 
 #gis1{
     color: black;
-    background-image: url(Images/gis1.PNG);
+    background: url(project_files/3040/3040_cover.PNG) center left;
 }
 
 #gis2{
-    background-image: url(Images/gsi2.PNG);
+    background: url(project_files/4940/4940_cover.PNG);
 }
 
 #dij{
-    background-image: url(Images/Bg1.JPG);
+    background: url(Images/Bg1.JPG);
 }
+
+#rs1{
+	color: black;
+	background: url(project_files/3380/3380_cover.PNG) center;
+	
+}
+
 
 @media only screen and (max-width: 768px) {
     .project_container{
@@ -261,7 +274,6 @@ ul#nav li{  /*styles navbar*/
 
 
 /* ================== RESUME ================ */
-#resume{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 12pt;
+.bio-link{
+	color: black;
 }
