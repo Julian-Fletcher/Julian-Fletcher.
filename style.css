@@ -272,6 +272,13 @@ ul#nav li{  /*styles navbar*/
     }
 }
 
+@media only screen and (max-width: 320px){
+	.pimg{
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
+
 
 /* ================== RESUME ================ */
 .bio-link{
